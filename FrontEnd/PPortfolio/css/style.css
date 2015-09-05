@@ -1,0 +1,109 @@
+﻿.navbar-main {
+    background-color: #2ecc71;
+	font-size: 18px;
+	color: #000;
+}
+.navbar-main .navbar-brand {
+	background-color: #2eaa71;
+    color: #ecf0f1;
+	margin-left: 50px;
+}
+.navbar-main .navbar-brand:hover{
+	background-color: #eee;
+    color:#000;
+}
+
+.navbar-main .navbar-nav{
+	background-color: #2eaa71;
+	margin-right:50px;
+}
+.navbar-main .navbar-nav  li a{
+	color:#ecf0f1;
+}
+.navbar-main .navbar-nav  li a:hover{
+	color:#000;
+}
+
+#main-jumbo{
+	background: url("../img/greeen.jpg") no-repeat center center fixed;
+	background-size:cover;
+	height:700px;
+	text-align:center;
+	color: white;
+}
+
+.vertical-center {
+  margin-top: 250px;
+  left:50%;
+}
+
+.intro-div{
+	border-top:2px solid #aaa;
+	border-bottom:2px solid #eee;
+	margin-bottom:25px;
+}
+
+#person-jumbo{
+	background: url("../img/alexandria.jpg") no-repeat center center fixed;
+	background-size:cover;
+	height:650px;
+	text-align:center;
+	margin-top: -30px;
+}
+.info{
+	color: #000;
+	background-color:rgba(255,255,255,0.5);
+}
+.pp{
+	width:300px;
+	height:300px;
+	border-radius:50%;
+	background: url("../img/pppic.jpg");
+	background-repeat: no-repeat;
+	background-size: 450px 450px;
+    background-position: -80px -10px;
+	margin-top:120px;
+}
+
+#proj-jumbo{
+	background: url("../img/proj.jpg") no-repeat center center fixed;
+	background-size:cover;
+	height:1050px;
+	text-align:center;
+	margin-top: -30px;
+}
+
+.thumbnail{
+	background-color: rgba(0,255,0, 0.3);
+}
+.thumbnail img{
+	width: 250px;
+	height:250px;
+}
+.thumbnail p{
+	font-size: 14px;
+}
+button:focus { outline:0 !important; }
+
+.thumbnail:hover{
+	background-color: rgba(0,155,0, 0.5);
+	transition: 0.5s;
+  ``box-shadow: 5px 10px 5px rgba(0,0,0,0.9);
+}
+
+#contact-jumbo{
+	height: 500px;
+	background-color: rgba(0, 150, 0, 0.7);
+	margin-top: -30px;
+}
+
+footer{
+	height:60px;
+	background-color: rgba(0,0,0,0.95);
+	margin-top: -30px;
+	color: white;
+	font-weight: bold;
+	line-height: 50px;
+	
+	
+}
