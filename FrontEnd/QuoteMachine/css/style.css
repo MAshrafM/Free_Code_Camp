@@ -1,0 +1,73 @@
+﻿body{
+	height: 100%;
+	background-color:#81C1FF;
+}
+
+.intro{
+    background-image: url('https://c2.staticflickr.com/8/7005/13414753665_eba9bf75b7_c.jpg');
+    background-size: cover;
+    background-position: center;
+    height:200px;
+	color:white;
+	padding-top: 60px;
+}
+
+.story{
+	clear: both;
+	margin-bottom:25px;
+	color:white;
+	font-size:16px;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+footer{
+	height:60px;
+	background-color: rgba(0,0,0,0.95);
+	color: white;
+	font-weight: bold;
+	line-height: 50px;
+	width:100%;
+}
+.quote{
+	font-size: 18px;
+	padding-top:40px;
+	padding-left:60px;
+}
+.author{
+	font-size: 18px;
+	padding-right:30px;
+}
+.icon {
+	border:2px solid black;
+    border-radius: 50%;
+    padding: 20px;
+	color: white;
+	background-color:black;
+}
+h1{
+	font-family: 'Berkshire Swash', cursive;
+}
+.latch{
+	margin-top:-40px;
+	margin-bottom: 50px;
+}
+
+.quote-block{
+	border:5px solid black;
+	border-radius: 20px;
+	font-family: 'Kaushan Script', cursive;
+	padding-bottom:50px;
+	background-color:rgb(255,127,36);
+}
+
+.act{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.btn{
+	white-space:normal!important;
+}
+.container-fluid{
+	height:650px;
+}
