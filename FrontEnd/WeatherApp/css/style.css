@@ -1,0 +1,109 @@
+﻿body{
+	height: 100%;
+	background-color:#81C1FF;
+	background-size: cover;
+    background-position: center;
+}
+
+.intro{
+    background-image: url('http://www.damncovers.com/wp-content/uploads/2012/10/autumn-season-fb-cover.jpg');
+    background-size: cover;
+    background-position: center;
+    height:200px;
+	color:white;
+	padding-top: 40px;
+}
+
+.story{
+	clear: both;
+	margin-bottom:25px;
+	color:white;
+	font-size:16px;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+footer{
+	height:60px;
+	background-color: rgba(0,0,0,0.95);
+	color: white;
+	font-weight: bold;
+	line-height: 50px;
+	width:100%;
+}
+
+.icon {
+	border:1px solid black;
+	height:75px;
+	width:75px;
+	padding-top: 15px;
+    border-radius: 50%;
+	color: white;
+	background-color:rgba(0,255,0,0.75);
+}
+.icon:hover{
+	background-color:rgba(0,255,0,1);
+}
+.wicon {
+	margin-top:70px;
+	margin-left:30px;
+	padding-left:20px;
+	border: 1px solid black;
+	border-radius:20px;
+	background-color:rgba(255,255,255,0.75);
+}
+.wicon img{
+	width:100px;
+	height: 100px;
+}
+.temp, .hum{
+	margin-top:40px;
+	border: 1px solid black;
+	border-radius:20px;
+	background-color:rgba(255,255,255,0.75);
+	font-size: 25px;
+}
+h1, h2{
+	font-family: 'Berkshire Swash', cursive;
+}
+.latch{
+	margin-top:-40px;
+	margin-bottom: 50px;
+}
+
+#weather{
+	border:1px solid grey;
+	border-radius: 20px;
+	box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+	font-family: 'Kaushan Script', cursive;
+	padding-bottom:50px;
+	background-color:rgba(255,255,255, 0.75);
+	height:300px;
+}
+#weather:hover{
+	background-color:rgba(255,255,255, 0.95);
+}
+#control{
+	background-color:rgba(255,255,255, 1);
+	position:relative;
+	clear:both;
+	margin-top:-75px;
+	border-right:1px solid grey;
+	border-left:1px solid grey;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding-top:15px;
+	height:75px;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 18px;
+}
+.act{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.btn{
+	white-space:normal!important;
+}
+.container-fluid{
+	height:650px;
+}
