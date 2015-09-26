@@ -1,0 +1,123 @@
+﻿body{
+  background-color:rgb(111,111,111);
+  
+}
+#main{
+  background-image:url("http://pre03.deviantart.net/24d3/th/pre/f/2012/189/d/c/dcef94760ed70958ebbff64f0cef4c02-d56ia49.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.intro{
+  height:100px;
+  background-color: rgb(2, 68, 221);
+  border-bottom: 5px solid black;
+  padding-top:25px;
+}
+
+.clock{
+  width:320px;
+  height:320px;
+  min-width:220px;
+  min-height:220px;
+  position:relative;
+  overflow:hidden;
+  border: 5px dashed white;
+  border-radius:50%;
+  margin:auto;
+}
+
+.clock:hover{
+  background-color:rgba(222,222,222,0.5);
+}
+h1{
+  font-family: 'Bevan', cursive;
+  color:white;
+  margin-top:0px;
+}
+#control{
+  font-weight:bold;
+  font-size:16px;
+  margin-top:15px;
+  margin-bottom:15px;
+  color:white;
+  border:3px dotted white;
+  border-radius:5px;
+  padding:10px;
+  background-color:rgba(0,0,255,0.3);
+}
+#control:hover{
+  background-color:rgba(0,0,255,0.5);
+}
+.fill{
+  position:absolute;
+  padding:1px;
+  bottom:0;
+  right:0px;
+  left:0px;
+  height:0%;
+  background-color:rgba(222,0,222,0.5);
+  z-index: 0;
+  
+}
+.play{
+  position:absolute;
+  top:40%;
+  left:45%;
+  color:rgba(0,0,255,0.5);
+  display:none;
+  z-index:2;
+  
+}
+
+.pause{
+  position:absolute;
+  top:40%;
+  left:40%;
+  color:rgba(255,0,0,0.5);
+  display:none;
+  z-index:2;
+  
+}
+.reset{
+  position:absolute;
+  top:40%;
+  left:40%;
+  color:rgba(0,255,0,0.5);
+  display:none;
+  z-index:2;
+}
+.prompt{
+  position:relative;
+  line-height: 70px;
+  font-size: 24px;
+  font-weight:bold;
+  z-index: 1;
+  color:white;
+}
+
+.timer{
+  position:relative;
+  padding-top:25%;
+  font-size: 24px;
+  font-weight:bold;
+  z-index:1;
+  color:white;
+}
+
+footer{
+    
+	height:60px;
+	background-color: rgba(0,0,0,0.95);
+	color: white;
+	font-weight: bold;
+	line-height: 50px;
+	width:100%;
+	position:relative;
+	bottom:0;
+}
+.right{
+  float:right;
+}
