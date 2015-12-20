@@ -1,0 +1,77 @@
+﻿body{
+    padding-bottom:0;
+    margin-bottom:0;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#main{
+	height:100%;
+    min-height:100%;
+	position:relative;
+	padding-bottom:75px;
+}
+.content{
+	min-height:400px;
+}
+.thumbnail{
+	min-height:600px;
+  
+  animation-name: enter;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+}
+.thumbnail a{
+	position:absolute;
+	bottom:30px;
+	right:30px;
+}
+.thumbnail img{
+	width:300px!important;
+	height:300px!important;
+}
+.thumbnail .rank{
+	position:absolute;
+	bottom:30px;
+	left:30px;
+	color:green;
+}
+.thumbnail h3{
+	min-height:170px;
+	text-overflow: ellipsis;
+    padding-bottom:5px;
+	border-bottom:1px solid #afafaf;
+}
+.thumbnail h4{
+	padding-top:5px;
+}
+.list-inline li{
+	padding-bottom: 15px;
+}
+.thumbnail .author{
+	display:inline-flex;
+	font-size:15px;
+}
+.author p{
+	padding-right:10px;
+}
+footer{
+	height:60px;
+	margin-top:25px;
+	background-color: rgba(0,0,0,0.95);
+	color: white;
+	font-weight: bold;
+	line-height: 50px;
+	width:100%;
+	overflow:hidden;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+@keyframes enter{
+	0% {opacity: 0.0; scaleY: 0;}
+	25% {opacity: 0.25; scaleY: 0.25;}
+	50% {opacity: 0.5; scaleY: 0.5;}
+	75% {opacity: 0.75; scaleY: 0.75;}
+	100% {opacity: 1; scaleY: 1;}
+}

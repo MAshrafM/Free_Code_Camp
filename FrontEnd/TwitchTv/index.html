@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TwitchTv</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+	<link rel="stylesheet" href="http://css-spinners.com/css/spinner/three-quarters.css" type="text/css">
+	<link href="css/font-awesome.css" rel="stylesheet" />
+	<link href='https://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
+    <script src="script/jquery-2.1.3.min.js"></script>
+	
+	<script src="script/app.js"></script>
+	
+</head>
+
+<body>
+<div id="wrap">
+  <div class="intro">
+   <h1 class="text-center"><img src="https://cdn1.iconfinder.com/data/icons/simply-8-bits-12/96/twitch.png" alt="twitch">TwitchTv<h1>
+  </div>
+  
+  <div id="main">
+     <div id="nav">
+		  <ul>
+			<li id ="all" class="text-center">All</li>
+			<li id="online" class="text-center">Online</li>
+			<li id="offline" class="text-center">Offline</li>
+		  </ul>
+	  </div>
+	  <div id="search"><label><i class="fa fa-search"></i></label>
+	    <input type="text" class="bar">
+	  </div>
+	  <div id="channels">
+	    <div class="spin">
+	    <div class="three-quarters-loader">
+			Loading…
+		</div>
+		</div>
+	    <table id="twitch">
+		
+		</table>
+	  </div>
+  </div>
+  <footer>
+	<p class="text-center">Copyright @MAshraf &copy 2015</p>
+  </footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+﻿html, body{
+	height: 100%;
+    margin: 0;
+}
+.well{
+  margin-bottom:0px;
+}
+main{
+	padding: 10px;
+    min-height: -webkit-calc(100% - 100px);     /* Chrome */
+    min-height: -moz-calc(100% - 100px);     /* Firefox */
+    min-height: calc(100% - 100px);     /* native */
+}
+footer{
+	position: relative;
+    clear:both;
+}
+
+#board{
+	margin: auto;
+}
+
+#sRed, #sGreen, #sYellow, #sBlue{
+	margin-top:25px;
+	min-height: 150px;
+	min-width: 150px;
+}
+#sRed{background-color:red;}#sGreen{background-color:green;}#sYellow{background-color:yellow;}#sBlue{background-color:blue;}
+
+#control{
+	border:4px dashed #afafaf;
+	border-radius:5px;
+	background-color:#dadada;
+	min-height:150px;
+}
+
+.sButton{
+	margin-top:10px;
+}

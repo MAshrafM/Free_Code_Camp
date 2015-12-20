@@ -1,0 +1,155 @@
+﻿body{
+  background-color:rgb(180, 215, 251);
+}
+#wrap{
+  height:100%;
+  width:100%;
+  margin-bottom:80px;
+}
+#main{
+  margin:auto;
+  width:395px;
+  height:100%;
+  border:1px solid blue;
+  background-color:white;
+  border-radius:5px;
+}
+#nav{
+  height:50px;
+  background-color:rgb(0, 81, 181);  
+}
+#nav ul{
+  padding-left:0px;
+  font-size:0;
+}
+#nav li{
+  list-style-type:none;
+  display:inline-block;
+  color:white;
+  font-size:24px;
+  line-height:50px;
+  width:130px;
+  cursor:pointer;
+}
+#nav li:hover{
+  background-color:rgb(6, 116, 253);
+  border-bottom:2px solid red;
+}
+.hovon{
+  background-color:rgb(6, 116, 253);
+  border-bottom:2px solid red;
+}
+#nav li:active{
+  border-bottom:4px solid red;
+}
+#nav li:nth-child(2){
+  border-left:1px solid white;
+  border-right:1px solid white;
+  width:133px;
+}
+#search{
+  height:65px;
+  padding-top:20px;
+  position:relative;
+}
+#search label{
+  position:absolute;
+  color:grey;
+  z-index:5;
+  top: 22px;
+  left: 15%;
+}
+
+.bar{
+  position:relative;
+  padding-left:50px;
+  width:75%;
+  margin-left:12.5%;
+  outline:none;
+  border:1px solid grey;
+  border-radius:25px;
+}
+.intro{
+  height:100px;
+  background-color: rgb(145, 113, 202);
+  border-bottom: 5px solid black;
+  padding-top:25px;
+  margin-bottom:50px;
+}
+
+.intro img{
+  border-radius:100%;
+  width:65px;
+  border-radius:1px solid rgb(145, 113, 202);
+}
+h1{
+  font-family: 'Bevan', cursive;
+  color:white;
+  margin-top:0px;
+}
+footer{
+	height:60px;
+	background-color: rgba(0,0,0,0.95);
+	color: white;
+	font-weight: bold;
+	line-height: 50px;
+	width:100%;
+	position:fixed;
+    bottom:0px;
+}
+.right{
+  float:right;
+}
+#channels{
+  position:relative;
+}
+#channels table{
+  border-top:1px solid grey;
+  display:block;
+}
+#channels tbody{
+  display:block;
+}
+#channels tr{
+  height:100px;
+  border-top: 1px solid grey;
+  display:block;
+  padding-top:10px;
+  padding-left:20px;
+  padding-right:20px;
+}
+#channels tr:hover{
+  background-color:#ECEAEA;
+}
+#channels tr:first-child{
+  border-top:0px;
+  
+}
+#channels td{
+  text-align:center;
+}
+#channels td:nth-child(2){
+  text-align:center;
+  width:200px;
+}
+#channels td:nth-child(3){
+  text-align:center;
+  width:100px;
+}
+#twitch img{
+  width:75px;
+  border-radius:50%;
+  border:3px solid black;
+  box-shadow: .1em .1em .1em #826464;
+
+}
+.on{
+  color:rgb(127, 239, 136);
+}
+.off{
+  color:rgb(249, 64, 64);
+}
+#channels .spin{
+  text-align:center;
+  display:block;
+}

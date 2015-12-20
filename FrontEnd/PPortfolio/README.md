@@ -1,5 +1,13 @@
-<h1>Free Code Camp</h1>
-<h2>Basic Front End Development Projects</h2>
-<h3><a href="http://freecodecamp.com/challenges/zipline-build-a-personal-portfolio-webpage">Build a Personal Portfolio Webpage</a></h3>
-<p>Reverse engineering a Portfolio on <a href="http://codepen.io/ThiagoFerreir4/full/eNMxEp">CodePen.io</a>... I tried to stick with bootstrap mainly as a refresher
-and with too much green :) text punch of Lorem Ipsum to be filled in the future</p>
+# FreeCodeCamp
+## [Zipline: Build a Personal Portfolio Webpage](http://www.freecodecamp.com/challenges/zipline-build-a-personal-portfolio-webpage)
+
+User Story: I can access all of the portfolio webpage's content just by scrolling.
+User Story: I can click different buttons that will take me to the portfolio creator's different social media pages.
+User Story: I can see thumbnail images of different projects the portfolio creator has built (if you haven't built any websites before, use placeholders.)
+User Story: I navigate to different sections of the webpage by clicking buttons in the navigation.
+
+[Live on CodePen](http://codepen.io/mashrafm/pen/YyPdqZ)
+
+Future:
+... Apply BootstrapTheme
+... Go Angular

@@ -1,26 +1,20 @@
 
 $(document).ready(function(){
-	var loc, lon, lat;
-	$.get("http://ipinfo.io", function(response) {
-    //console.log(response);
-	loc = response.loc.split(',');
-	//console.log(loc);
-	lon = loc[0];
-	lat = loc[1];
-	showWeather(lat, lon);
-}, "jsonp");
+  $.getJSON("http://ip-api.com/json/?callback=?", function(data) {
+    $(".location").html(data.city+', '+data.country);
+    showWeather(data.lat, data.lon);
+  });
 
 });
 showWeather = function(lat, lon){
-	//console.log(lon);
-	//console.log(lat);
+=
 	var tc = 'F';
 	var temp, tempc;
 	var API = "ca67ce55c79f10f3323455777752623c";
 	var url = "https://api.forecast.io/forecast/"+API+"/"+lat+","+lon+"?callback=?";
-	//console.log(url);
+
 	$.getJSON(url, function(weather){
-		//console.log(weather);
+
 		temp = weather.currently.temperature.toFixed(2);
 		tempc = (5/9 * (temp - 32)).toFixed(2);
 		var hum = weather.currently.humidity;
@@ -28,7 +22,6 @@ showWeather = function(lat, lon){
 		var icon = showIcon(weather.currently.icon);
 		$(".hum").text("Humidity " + hum);
 		$(".temp").text("Temperature " + temp + '\u00b0 F');
-		$(".location").text(weather.timezone);
 		$(".summary").text(weather.currently.summary +' day.');
 	});
 	$("#qm").on('click', function(){

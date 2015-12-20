@@ -13,9 +13,8 @@
     color:#000;
 }
 
-.navbar-main .navbar-nav{
+.navbar-main{
 	background-color: #2eaa71;
-	margin-right:50px;
 }
 .navbar-main .navbar-nav  li a{
 	color:#ecf0f1;
@@ -49,10 +48,15 @@
 	height:650px;
 	text-align:center;
 	margin-top: -30px;
+	overflow:hidden;
 }
 .info{
 	color: #000;
 	background-color:rgba(255,255,255,0.5);
+
+}
+.info p{
+  text-overflow: ellipsis;
 }
 .pp{
 	width:300px;
@@ -103,7 +107,9 @@ footer{
 	margin-top: -30px;
 	color: white;
 	font-weight: bold;
-	line-height: 50px;
-	
-	
+	line-height: 50px;	
+}
+
+.icon-bar{
+  background-color:black;
 }

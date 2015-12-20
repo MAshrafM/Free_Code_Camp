@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <title>SimonGame</title>
+	 <!-- styles -->
+	 <link rel="stylesheet" href="css/bootstrap.css" />
+	 <link rel="stylesheet" href="css/font-awesome.css" />
+	 <link rel="stylesheet" href="css/style.css" />
+	 <!-- scripts -->
+	 <script src="script/jquery-2.1.3.min.js"></script>
+	 <script src="script/bootstrap.min.js"></script>
+	 <script src="script/app.js"></script>
+	 
+</head>
+
+<body>
+	
+	<!-- Navbar -->
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<div class="navbar-brand"><a href="#">SimonGame</a></div>
+			</div>
+		</div>
+	</nav>
+	
+	<!-- Main Board -->
+	<main div class="container">
+	<div id="control">
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+				<div class="level pull-left">
+					 <h2>Level: 1</h2>
+				</div>
+
+				<div class="score pull-right">
+					 <h2>Score: 0</h2>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="difficulty text-center">
+			  <label class="radio-inline"><input type="radio" class="difOpt" name="difficulty" value="2">Easy</label>
+			  <label class="radio-inline"><input type="radio" class="difOpt" name="difficulty" value="1" checked>Normal</label>
+			  <label class="radio-inline"><input type="radio" class="difOpt" name="difficulty" value="0.5">Hard</label>
+			  <label class="radio-inline"><input type="radio" class="difOpt" name="difficulty" value="0.25">Insane</label>
+			</div>
+		</div>
+			<div class="sButton col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4"> <button class="btn btn-primary btn-block start">start</button></div>
+	</div>
+		
+		
+		<div id="board">
+			<div class="row">
+				<div class="col-xs-5 col-xs-offset-1 col-md-4 col-md-offset-2">
+					
+						<div id="sGreen" class="pad shape1" data-pad="1">
+							<audio preload="auto" class="sound1" data-pad="1">
+								<source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" />
+							</audio>
+						</div>
+					
+				</div>
+				<div class="col-xs-5 col-md-4">
+					
+						<div id="sRed" class="pad shape2" data-pad="2">
+							<audio preload="auto" class="sound2" data-pad="2">
+								<source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" />
+							</audio>
+						</div>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-5 col-xs-offset-1 col-md-4 col-md-offset-2">
+					
+						<div id="sYellow" class="pad shape3" data-pad="3">
+							<audio preload="auto" class="sound3" data-pad="3">
+								<source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" />
+							</audio>
+						</div>
+					
+				</div>
+				<div class="col-xs-5 col-md-4">
+					
+						<div id="sBlue" class="pad shape4" data-pad="4">
+							<audio preload="auto" class="sound4" data-pad="4">
+								<source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" />
+							</audio>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	<!-- Footer -->
+	<footer class="well well-lg">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					<p><a href="#">FreeCodeCamp</a> Front End Project</p>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<p class="text-center"> &copy; 2015 MAshraf  <a href="#">Github</a> </p>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<p><a href="https://www.danpurdy.co.uk/tutorial/simon-says-game-in-jquery-tutorial/">DanPurday</a> same concept different game logic, used it as tutorial</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

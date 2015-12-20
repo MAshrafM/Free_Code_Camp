@@ -1,0 +1,52 @@
+﻿body{
+    padding-bottom:0;
+    margin-bottom:0;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:100%;
+	overflow-x:hidden;
+}
+.navbar{
+	border-radius:0px!important;
+}
+
+
+#main{
+	height:100%;
+    min-height:100%;
+	position:relative;
+	padding-bottom:75px;
+}
+.search{
+	margin-bottom:25px;
+}
+#Items{
+	min-height:450px;
+}
+
+.well{
+	height:150px;
+	display: block!important;
+    padding-left: 15px!important;
+    padding-top: 0px;
+
+}
+.well:hover{
+	border-left:5px solid red;
+}
+footer{
+	height:60px;
+	margin-top:25px;
+	background-color: rgba(0,0,0,0.95);
+	color: white;
+	font-weight: bold;
+	line-height: 50px;
+	width:100%;
+	overflow:hidden;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+}
+footer p{
+  margin-bottom:0px!important;
+}

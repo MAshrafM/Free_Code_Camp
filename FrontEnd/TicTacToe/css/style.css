@@ -1,0 +1,16 @@
+﻿.well{
+	margin-bottom:0px!important;
+}
+#board{
+	    margin: 50px 0% 50px 20%;
+}
+.cell{
+	height: 150px;
+	background-color: #DADADA;
+	border:5px solid white;
+	text-align:center;
+	line-height:150px;
+	font-size:50px;
+	font-weight:bold;
+	cursor:pointer;
+}
