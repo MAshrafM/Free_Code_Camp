@@ -5,4 +5,4 @@ Learn to create a budget web app using JavaScript.
 
 Using ES6 JS for Budget/Expenses Calculator.  
   
-![view](https://github.com/MAshrafM/Free_Code_Camp/tree/master/YT_SimpleBudget/show.png)
+![view](https://github.com/MAshrafM/Free_Code_Camp/blob/master/YT_SimpleBudget/show.png)

@@ -34,4 +34,4 @@ New Curriculum and Youtube Tutorials Projects and Forks.
 
 
 ### Youtube Tutorials
-- Simple Budget App. [Tutorial](https://www.youtube.com/watch?v=m_HJ3juuFvo) | (Code)(https://github.com/MAshrafM/Free_Code_Camp/tree/master/YT_SimpleBudget)
+- Simple Budget App. [Tutorial](https://www.youtube.com/watch?v=m_HJ3juuFvo) | [Code](https://github.com/MAshrafM/Free_Code_Camp/tree/master/YT_SimpleBudget)
