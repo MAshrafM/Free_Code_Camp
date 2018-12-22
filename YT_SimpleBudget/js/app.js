@@ -115,6 +115,39 @@ class UI {
     this.expenseAmount.textContent = total;
     return total;
   }
+
+  // Edit Expense
+  editExpense(element){
+    let id = parseInt(element.dataset.id);
+    let parent = element.parentElement.parentElement.parentElement;
+    // remove from dom
+    this.expenseList.removeChild(parent);
+    let expense = this.itemList.filter(function(item){
+      return item.id === id;
+    });
+    this.expenseInput.value = expense[0].title;
+    this.amountInput.value = expense[0].amount;
+    // remove from list
+    let tempList = this.itemList.filter(function(item){
+      return item.id !== id;
+    });
+    this.itemList = tempList;
+    this.showBalance();
+  }
+
+  // Delete Expense
+  deleteExpense(element){
+    let id = parseInt(element.dataset.id);
+    let parent = element.parentElement.parentElement.parentElement;
+    // remove from dom
+    this.expenseList.removeChild(parent);
+    // remove from list
+    let tempList = this.itemList.filter(function(item){
+      return item.id !== id;
+    });
+    this.itemList = tempList;
+    this.showBalance();
+  }
 }
 
 function eventListeners(){
@@ -136,9 +169,13 @@ function eventListeners(){
     ui.submitExpenseForm();
   })
 
-  // Budget Form Submit
+  // Expense Click
   expenseList.addEventListener('click', function(e){
-    
+    if(e.target.parentElement.classList.contains('edit-icon')){
+      ui.editExpense(event.target.parentElement);
+    } else if(e.target.parentElement.classList.contains('delete-icon')){
+      ui.deleteExpense(event.target.parentElement);
+    }
   })
 }
 
