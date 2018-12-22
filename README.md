@@ -29,3 +29,5 @@ New Curriculum and Youtube Tutorials Projects and Forks.
 - Build A Pomodoro Clock
 * Only Markdown Previewer is new, rest are legacies. [Certificate](https://www.freecodecamp.org/certification/mashrafm/front-end-libraries)
 
+### Data Visualization Projects  
+- Visualize Data with a Bar Chart
