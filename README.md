@@ -31,3 +31,7 @@ New Curriculum and Youtube Tutorials Projects and Forks.
 
 ### Data Visualization Projects  
 - Visualize Data with a Bar Chart
+
+
+### Youtube Tutorials
+- Simple Budget App. [Tutorial](https://www.youtube.com/watch?v=m_HJ3juuFvo)

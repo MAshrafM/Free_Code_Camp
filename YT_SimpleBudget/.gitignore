@@ -1,0 +1,5 @@
+img
+webfonts
+*/*.min.css
+*/*.min.js
+css/all.css
