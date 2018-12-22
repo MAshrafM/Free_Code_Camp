@@ -1,7 +1,7 @@
 # [FreeCodeCamp](https://www.freecodecamp.org)  
 My FCC projects and spins with their legacy and new content.
   
-My Legacy Front End Projects in Legacy Folder. [Legacy FFC cert](https://www.freecodecamp.org/certification/mashrafm/legacy-front-end)
+My Legacy Front End Projects in Legacy Folder. [Legacy FCC cert](https://www.freecodecamp.org/certification/mashrafm/legacy-front-end)
 ---
 New Curriculum and Youtube Tutorials Projects and Forks.  
 
@@ -34,4 +34,4 @@ New Curriculum and Youtube Tutorials Projects and Forks.
 
 
 ### Youtube Tutorials
-- Simple Budget App. [Tutorial](https://www.youtube.com/watch?v=m_HJ3juuFvo)
+- Simple Budget App. [Tutorial](https://www.youtube.com/watch?v=m_HJ3juuFvo) | (Code)(https://github.com/MAshrafM/Free_Code_Camp/tree/master/YT_SimpleBudget)
