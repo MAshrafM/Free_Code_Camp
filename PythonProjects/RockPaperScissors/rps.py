@@ -4,9 +4,11 @@ def play():
     print("#------------------------------------------#")
     print("|      Welcome to Rock Paper Scissors      |")
     print("#------------------------------------------#")
-    print("Choose your hand: cd ")
+    print("Choose your hand: ")
     user = input("'r' for Rock, 'p' for Paper, 's' for Scissors: ")
     computer = random.choice(['r', 'p', 's'])
+    print(f"Your Opponent chose: {computer}")
+
 
     if user == computer:
         return "It's a tie!"
