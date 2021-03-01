@@ -6,3 +6,6 @@ Uploaded to FreeCodeCamp on Dec 2020
 
 Content:
 - Madlibs
+- Guess A Number
+- Rock Paper Scissors
+- Hangman
