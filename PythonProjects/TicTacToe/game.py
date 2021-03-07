@@ -1,3 +1,5 @@
+from player import HumanPlayer, RandomComputerPlayer
+
 class TicTacToe:
     def __init__(self):
         #build board
@@ -34,7 +36,7 @@ class TicTacToe:
             return True
         return False
 
-    def winner(square, letter):
+    def winner(self, square, letter):
         # winner if 3 in a row, colm or diagonal
         # check row
         row_ind = square // 3
@@ -82,6 +84,13 @@ def play(game, x_player, o_player, print_game=True):
 
             letter = 'O' if letter == 'X' else 'X' #switch player
 
-        if print_game:
-            print('It\'s a Tie!')
+    if print_game:
+        print('It\'s a Tie!')
 
+
+if __name__== '__main__':
+    x_player = HumanPlayer('X')
+    o_player = RandomComputerPlayer('O')
+
+    t = TicTacToe()
+    play(t, x_player, o_player, print_game=True)
