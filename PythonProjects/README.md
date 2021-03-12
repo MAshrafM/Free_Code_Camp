@@ -10,3 +10,4 @@ Content:
 - Rock Paper Scissors
 - Hangman
 - TicTacToe  
+- Binary Search
