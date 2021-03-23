@@ -1,4 +1,5 @@
 import random
+import re
 
 class Board:
     def __init__(self, dim_size, num_bombs):
@@ -36,22 +37,24 @@ class Board:
 
     def get_num_neighboring_bombs(self, row, col):
         num_neighboring_bombs = 0
-        for r in range(max(0, row-1), min(self.dim_size-1, (row+1)+1)):
-            for c in range(max(0, col-1), min(self.dim_size-1, (col+1)+1)):
+        for r in range(max(0, row-1), min(self.dim_size-1, row+1)+1):
+            for c in range(max(0, col-1), min(self.dim_size-1, col+1)+1):
                 if r == row and c == col:
                     continue
                 if self.board[r][c] == "*":
                     num_neighboring_bombs += 1
+        return num_neighboring_bombs
 
     def dig(self, row, col):
-
+        self.dug.add((row, col))
+        
         if self.board[row][col] == '*':
             return False
         elif self.board[row][col] > 0:
             return True
 
-        for r in range(max(0, row-1), min(self.dim_size-1, (row+1)+1)):
-            for c in range(max(0, col-1), min(self.dim_size-1, (col+1)+1)):
+        for r in range(max(0, row-1), min(self.dim_size-1, row+1)+1):
+            for c in range(max(0, col-1), min(self.dim_size-1, col+1)+1):
                 if (r, c) in self.dug:
                     continue
                 self.dig(r, c)
@@ -108,5 +111,25 @@ def play(dim_size=10, num_bombs=10):
     - gamefiy 
     """
     board = Board(dim_size, num_bombs)
-    pass
+    while len(board.dug) < board.dim_size ** 2 - num_bombs:
+        print(board)
+        user_input = re.split(',(\\s)*', input("Where would you like to dig? Input as row, col: "))
+        row, col = int(user_input[0]), int(user_input[-1])
+        if row < 0 or row >= board.dim_size or col < 0 or col >= dim_size:
+            print("Invalid location, try again")
+            continue
+
+        safe = board.dig(row, col)
+        if not safe:
+            break
+    
+    if safe:
+        print("Congrats!! You win!!")
+    else: 
+        print("GAME OVER")
+        board.dug = [(r,c) for r in range(board.dim_size) for c in range(board.dim_size)]
+        print(board)
+
+if __name__ == '__main__':
+    play()
 
