@@ -11,3 +11,5 @@ Content:
 - Hangman
 - TicTacToe  
 - Binary Search
+- Minesweeper
+- Sudoku Solver
